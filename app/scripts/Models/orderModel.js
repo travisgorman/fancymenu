@@ -10,7 +10,7 @@ import Backbone from 'backbone';
 
 
 const OrderModel = Backbone.model.extend({
-  urlRoot: 'https://tiny-za-server.herokuapp.com/collections/squirkOrders' 
+  urlRoot: 'https://tiny-za-server.herokuapp.com/collections/squirkOrders',
   idAttribute : '_id',
   defaults:  {
     items: [],
