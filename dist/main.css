@@ -6,8 +6,8 @@ body {
   font-size: 13px;
   background: #F5F5F1; }
 
-.price {
-  color: green; }
+input.add {
+  float: right; }
 
 #results {
   width: 90%;
@@ -24,6 +24,8 @@ body {
   width: 225px;
   height: 225px;
   margin: 10px; }
+  .item .price {
+    color: green; }
 
 .item:after {
   content: '';

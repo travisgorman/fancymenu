@@ -17,8 +17,8 @@ let settings = {
         console.log( sectionItem );
        // console.log( sectionItem.item );
        
-
         let $menuItem = $(`
+
           <div class="item">
             <h4> ${sectionItem.item} </h4>
             <main> ${ sectionItem.description } </main>
@@ -26,6 +26,7 @@ let settings = {
               <section class="bottom">
                 <span class="icons"></span>
                 <span class="price">$ ${sectionItem.price} </span>
+                <input type="button" value="add to order" class="add" id="addToOrder">
               </section>
             </section>
           </div>
@@ -36,17 +37,7 @@ let settings = {
       });//close forEach
     });//close _.each
 
-   
-
-
-    // let menuItems = response;
-    // console.log( 'menuItems is ', menuItems );
-      
-      // end success function
-
-
-  }//--!!-- close success function
-}//--!!-- close settings object
-
+  }//close success function
+}//close settings object
 
 $.ajax( settings );

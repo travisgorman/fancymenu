@@ -7,30 +7,29 @@ body {
     font-size: 13px;
     background: #F5F5F1;
 }
-div {
-  // border-bottom: 1px solid #ccc;
-}
-// classes
-.container{
 
-}
-.item-info{
+// div {
+  
+// }
+// .container{
 
-}
-.bottom{
+// }
+// .item-info{
 
-}
-.icons{
+// }
+// .bottom{
 
-}
-.price{
-  color: green;
-}
+// }
+// .icons{
 
+// }
+
+input.add {
+  float: right;
+}
 #results {
     width: 90%;
     margin: 0 auto;
-    
 }
 .item {
     border-bottom: 1px solid #ccc;
@@ -43,6 +42,9 @@ div {
     width: 225px;
     height: 225px;
     margin: 10px;
+    .price{
+      color: green;
+}
 }
 .item:after{
   content: '';
